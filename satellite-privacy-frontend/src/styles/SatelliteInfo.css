@@ -1,0 +1,116 @@
+
+/* src/styles/SatelliteInfo.css */
+.satellite-info-container {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.satellite-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.satellite-header h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.satellite-type {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 3px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.satellite-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.satellite-metadata h3, 
+.satellite-current-location h3 {
+  margin-bottom: 15px;
+  color: #2c7be5;
+}
+
+.detail-item {
+  margin-bottom: 8px;
+  display: flex;
+}
+
+.detail-label {
+  font-weight: 500;
+  width: 120px;
+}
+
+.location-map {
+  margin-top: 15px;
+  height: 200px;
+  background-color: #f8f9fa;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.map-placeholder {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #6c757d;
+  border: 1px dashed #ddd;
+}
+
+.satellite-description {
+  padding: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.satellite-description h3 {
+  margin-bottom: 15px;
+  color: #2c7be5;
+}
+
+.satellite-visibility {
+  padding: 20px;
+}
+
+.satellite-visibility h3 {
+  margin-bottom: 15px;
+  color: #2c7be5;
+}
+
+.passes-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.pass-item {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.pass-date {
+  background-color: #f8f9fa;
+  padding: 8px 12px;
+  font-weight: 500;
+  border-bottom: 1px solid #eee;
+}
+
+.pass-info {
+  padding: 12px;
+}
+
+.pass-info p {
+  margin-bottom: 5px;
+}

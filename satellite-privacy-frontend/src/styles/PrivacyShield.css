@@ -1,0 +1,94 @@
+
+/* src/styles/PrivacyShield.css */
+.privacy-shield-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.shield-info {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shield-types {
+  margin-top: 20px;
+}
+
+.shield-type-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.shield-type-card {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+  transition: border-color 0.3s, transform 0.2s;
+}
+
+.shield-type-card:hover {
+  transform: translateY(-3px);
+}
+
+.shield-type-card.selected {
+  border-color: #2c7be5;
+  background-color: rgba(44, 123, 229, 0.05);
+}
+
+.shield-type-card h4 {
+  color: #2c7be5;
+  margin-bottom: 10px;
+}
+
+.shield-activation {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.shield-form {
+  margin-top: 15px;
+}
+
+.location-btn {
+  display: block;
+  width: 100%;
+  margin: 10px 0 15px;
+  background-color: #6c757d;
+}
+
+.location-btn:hover {
+  background-color: #5a6268;
+}
+
+.activate-btn {
+  display: block;
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  background-color: #2c7be5;
+}
+
+.active-shield-info {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: rgba(44, 123, 229, 0.1);
+  border-radius: 6px;
+}
+
+.privacy-disclaimer {
+  background-color: #fff3cd;
+  color: #856404;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #ffeeba;
+}
