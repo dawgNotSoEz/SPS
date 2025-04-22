@@ -3,7 +3,8 @@ import React, { useState, useEffect, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import axios from 'axios';
 import '../styles/SatelliteMap.css';
-
+import 'leaflet/dist/leaflet.css';
+import L from 'leaflet';
 // API endpoint
 const API_URL = 'http://localhost:5000/api';
 

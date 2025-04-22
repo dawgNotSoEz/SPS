@@ -43,9 +43,6 @@ def get_satellites():
         if not lat or not lng:
             return jsonify({"error": "Latitude and longitude are required"}), 400
             
-        # For now, we'll use a simplified approach with sample data
-        # In a real app, you would connect to NASA's API or similar
-        
         # Sample call to get ISS location (as a basic example)
         iss_response = requests.get('http://api.open-notify.org/iss-now.json')
         if iss_response.status_code == 200:

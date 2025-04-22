@@ -48,7 +48,7 @@ function UserDashboard() {
         <h2>Login Required</h2>
         <p>Please log in to view your dashboard</p>
         <button className="login-button">Login</button>
-        <p>Don't have an account? <a href="#">Sign up</a></p>
+        <p>Don't have an account? <a href="/signup">Sign up</a></p>
       </div>
     );
   }
