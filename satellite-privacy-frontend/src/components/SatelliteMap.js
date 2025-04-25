@@ -1,4 +1,4 @@
-// src/components/SatelliteMap.js
+
 import React, { useState, useEffect, useRef } from 'react';
 import { MapContainer, TileLayer, Marker, Popup, useMap } from 'react-leaflet';
 import axios from 'axios';

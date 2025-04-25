@@ -1,4 +1,4 @@
-// src/components/UserDashboard.js
+
 import React, { useState, useEffect } from 'react';
 import '../styles/UserDashboard.css';
 
@@ -7,9 +7,8 @@ function UserDashboard() {
   const [recentSearches, setRecentSearches] = useState([]);
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   
-  // Mock data - in a real app, this would come from your API
+
   useEffect(() => {
-    // Simulate fetching user data
     setTimeout(() => {
       setActiveShields([
         {
